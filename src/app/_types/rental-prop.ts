@@ -1,0 +1,18 @@
+export type RentalProperty = {
+  id: number;
+  lat: number;
+  long: number;
+  street_number: string;
+  street_name: string;
+  unit: string;
+  city_name: string;
+  state_name: string;
+  bedrooms: number;
+  bathrooms: number;
+  furnished: boolean | null;
+  property_type: "CONDO";
+  photos: string[];
+  pets_allowed: string;
+  desired_lease_duration_months: number[];
+  target_rental_rate: number;
+};
